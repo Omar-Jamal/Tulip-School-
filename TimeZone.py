@@ -15,7 +15,7 @@ if que1 == "1":
     print(datetime.now(IST).strftime('%H:%M:%S'))
     IST = pytz.timezone('Europe/London')
     print("in london ", datetime.now(IST).strftime('%H:%M:%S'))
-    IST = pytz.timezone('America/New_york')
+    IST = pytz.timezone('US/Eastern')
     print("in newyork ", datetime.now(IST).strftime('%H:%M:%S'))
     IST = pytz.timezone('Asia/Tokyo')
     print("in tokyo", datetime.now(IST).strftime('%H:%M:%S'))
@@ -27,7 +27,7 @@ elif que1 == "2":
 
     IST = pytz.timezone('Europe/London')
     print(datetime.now(IST).strftime('%H:%M:%S'))
-    IST = pytz.timezone('America/New_york')
+    IST = pytz.timezone('US/Eastern')
     print("in newyork ", datetime.now(IST).strftime('%H:%M:%S'))
     IST = pytz.timezone('Asia/Tokyo')
     print("in tokyo", datetime.now(IST).strftime('%H:%M:%S'))
@@ -40,7 +40,7 @@ elif que1 == "3":
 
     IST = pytz.timezone('Asia/Tokyo')
     print(datetime.now(IST).strftime('%H:%M:%S'))
-    IST = pytz.timezone('America/New_york')
+    IST = pytz.timezone('US/Eastern')
     print("in newyork ",datetime.now(IST).strftime('%H:%M:%S'))
     IST = pytz.timezone('Europe/London')
     print("in london " , datetime.now(IST).strftime('%H:%M:%S'))
@@ -50,7 +50,7 @@ elif que1 == "4":
     print("Now the time in Newyork is ")
     from datetime import datetime
     import pytz
-    IST = pytz.timezone('America/New_york')
+    IST = pytz.timezone('US/Eastern')
     print(datetime.now(IST).strftime('%H:%M:%S'))
     IST = pytz.timezone('Europe/London')
     print("in london ", datetime.now(IST).strftime('%H:%M:%S'))

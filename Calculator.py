@@ -30,3 +30,14 @@ while True:
         num1 = float(input("Enter a number = "))
         num2 = float(input("Enter a number = "))
         mul = num1 * num2 …
+        
+        print("mul is = ",mul)
+        break
+    elif choice == 4:
+        num1 = float(input("Enter a number = "))
+        num2 = float(input("Enter a number = "))
+        quo = num1 / num2
+        print("quo is = ",quo)
+        break
+    else:
+      print("Invalid Entry")

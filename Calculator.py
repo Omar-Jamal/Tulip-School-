@@ -29,7 +29,7 @@ while True:
     elif choice == 3:
         num1 = float(input("Enter a number = "))
         num2 = float(input("Enter a number = "))
-        mul = num1 * num2 …
+        mul = num1 * num2
         
         print("mul is = ",mul)
         break

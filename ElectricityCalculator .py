@@ -1,3 +1,4 @@
+#This project was made by  (Magida & Jouri ) 7th grade at Tulip school.
 units=int(input("please enter the number of units you consumed in a month"))
 if(units<=100):
     payAmount=units*2.60

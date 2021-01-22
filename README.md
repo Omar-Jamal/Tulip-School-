@@ -5,7 +5,7 @@ This repository contains the projects done by Tulip International School student
 
 
 1- Calculator -Grade 12-
-#A calculator program that has the 4 main functions of (addition/subtraction/division/multiplication)
+# A calculator program that has the 4 main functions of (addition/subtraction/division/multiplication)
 The user is asked to choose the operation and enter the numbers, after that the result prints on the screen.
 
 
